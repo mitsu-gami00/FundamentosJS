@@ -120,9 +120,16 @@ function notacioncientifica() {
 //Resta 10 al resultado final
 
 function potenciaycalculo() {
+    let numero1 = 3;
+    let numero2 = 4;
+    let multi = 2;
+    let resta = 10;
     let resultado = (3 ** 4) * 2 - 10;
 
-    alert(`Resultado final: ${resultado}`);
+    alert(`3 elevado a 4 multiplicado por 2 menos 10? 
+        3 elevado a 4? ${ numero1 ** numero2} 
+        por 2? ${numero1 ** numero2 * 2}
+        menos 10? ${resultado}`);
 }
 
 //🔹 Ejercicio 10: Dado aleatorio 🎲
