@@ -222,5 +222,24 @@ function ejercicio19(){
         cantidad de caracteres: ${cantidad}
         promedio final: ${promedio}
         clasificación: ${rendimiento}`)
+    } else if (promedio >= 5.0) {
+        rendimiento = "Buen rendimiento"
+        alert(`Estudiante: ${nombremayus}
+        cantidad de caracteres: ${cantidad}
+        promedio final: ${promedio}
+        clasificación: ${rendimiento}`)
+    } else if (promedio >= 4.0) {
+        rendimiento = "Suficiente"
+        alert(`Estudiante: ${nombremayus}
+        cantidad de caracteres: ${cantidad}
+        promedio final: ${promedio}
+        clasificación: ${rendimiento}`)
+    } else {
+        rendimiento = "Insuficiente"
+        alert(`Estudiante: ${nombremayus}
+        cantidad de caracteres: ${cantidad}
+        promedio final: ${promedio}
+        clasificación: ${rendimiento}`)
     }
 }
+ 
